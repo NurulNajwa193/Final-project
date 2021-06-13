@@ -1,0 +1,100 @@
+@charset "utf-8";
+/*style the background */
+
+html
+{
+	background-image:url("images/background.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+/*style the body */
+body {
+
+	max-width:864px; /*setting maximum width*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px auto; 
+	
+}
+
+h1 {
+	image:center;
+	text-align:center;
+	color : black;
+	margin-top: 30px;
+}
+h2 {
+	text-align:center;
+	color : black;
+	margin-top: 30px;
+}
+
+
+h3 {
+	text-align: left;
+	color : black;
+	margin-top: 30px;
+}
+
+h4 {
+	text-align: left;
+	color : black;
+	margin-top: 30px;
+	margin: 0 15%;
+	font-family: Arial;
+}
+
+/*set the first box/division */
+#logo {
+	background-color:#000;
+	color:#FFF;
+	padding:10px;
+	text-align:center;
+}
+
+/*set the first box/division */
+#educate {
+	background-color:#003;
+	color:#FFF;
+	padding:10px;
+	text-align:center;
+}
+/*set the navigation box */
+#navigation {
+	background-color:#666;
+	padding:2%;
+	text-align:center;
+}
+/*set the link navigation */
+#navigation a{
+	background-color:#666;
+	color:#CCCCCC;
+	padding:2%;
+	text-decoration:none;
+}
+/*set the link when it is hover*/
+#navigation a:hover{
+	background-color:#333;
+	color:#CCFF99;
+	padding:2%;
+}
+/* untuk bagi responsive berubah size bila skrin dikecilkan */
+@media screen and (max-width: 600px) {
+  ul li {float: none;}
+}
+/*set the style footer division*/
+#footer {
+	background-color:#666;
+	color:#000;
+	padding:1%;
+	margin: 0px auto;
+	text-align:center;
+}
+/*set the syle with id=here*/
+#here {
+	background-color:#000000;
+	color:#CCFF99;
+	padding:2%;
+} Document */
+

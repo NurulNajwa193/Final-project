@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+html
+{
+	background-image:url("images/background.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+/*style the body */
+body {
+
+	max-width:864px; /*setting maximum width*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px auto; 
+	
+}
+
+#kotak1
+{
+	width:100%;
+	float:left;
+}
+/*set kotak 3 with 50% on the left side*/
+#kotak32-B
+{
+	width:50%;
+	float:right;
+}
+#gambar
+{
+	height: auto;
+}
+/*thumb dalam page video*/
+#thumb1{
+	width:49%;
+	float:left;
+	padding-top: 5px;
+}
+
+#thumb2{
+	width:49%;
+	float:right;
+	padding-top: 5px;
+}
+
+#thumb3{
+	width:49%;
+	float:left;
+	padding-top: 5px;
+}
+
+#thumb4{
+	width:49%;
+	float:right;
+	padding-top: 5px;
+}
+/*set the style footer division*/	
+#footer {
+	background-color:#666;
+	color:#000;
+	padding:1%;
+	margin: 0px auto;
+	text-align:center;
+} 
+/*set the first box/division */
+#logo {
+	background-color:#000;
+	color:#FFF;
+	padding:10px;
+	text-align:center;
+}
+
+/*set the first box/division */
+#educate {
+	background-color:#003;
+	color:#FFF;
+	padding:10px;
+	text-align:center;
+}
+/*set the navigation box */
+#navigation {
+	background-color:#666;
+	padding:2%;
+	text-align:center;
+}
+/*set the link navigation */
+#navigation a{
+	background-color:#666;
+	color:#CCCCCC;
+	padding:2%;
+	text-decoration:none;
+}
+/*set the link when it is hover*/
+#navigation a:hover{
+	background-color:#333;
+	color:#CCFF99;
+	padding:2%;
+}
+/* untuk bagi responsive berubah size bila skrin dikecilkan */
+@media screen and (max-width: 600px) {
+  ul li {float: none;}
+}
+/*end navigation button*/
+
+/*set the syle with id=here*/
+#here {
+	background-color:#000000;
+	color:#CCFF99;
+	padding:2%;
+} S Document */
